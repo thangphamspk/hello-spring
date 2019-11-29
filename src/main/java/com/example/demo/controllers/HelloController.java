@@ -18,6 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping
     public ResponseEntity<String> sayHello() {
-        return new ResponseEntity<>("Hello World", HttpStatus.OK);
+        return new ResponseEntity<>("Hello Spring", HttpStatus.OK);
     }
 }
